@@ -10,7 +10,7 @@ export default class canUse extends Component {
         <div className='btnArea'>
             <button className='btnType closeBtn' onClick={onCancel}>Close</button>
         </div>
-        </div>
+      </div>
     )
   }
 }
