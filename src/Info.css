@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stockerTable{
+    width: 100%;
+    border: 1px solid #333;
+}
+
+.stockerTable .ant-col{
+    text-align: center;
+    height: 100px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.stockerTable .ant-col p{
+    width: 100%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.autoMode{
+    text-align: right;
+    padding-bottom: 1%;
+    font-size: 1.2rem;
+}
+
+.autoMode span{
+    font-weight: bold;
+}
