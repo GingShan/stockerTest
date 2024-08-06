@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 
 export default class canUse extends Component {
-  constructor(props){
-    super(props);
-    this.state = {}
-  }
+
   render() {
     const { onCancel } = this.props
     return (

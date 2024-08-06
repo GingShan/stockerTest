@@ -10,9 +10,6 @@ const Modal = ({ open, onCancel, status }) => {
         <div className="modal">
           <div className="modal-content">
             <ModalContent status={status} onCancel={onCancel} />
-            {/* <div className='btnArea'>
-                <button className='closeBtn' onClick={onCancel}>Close</button>
-            </div> */}
           </div>
         </div>
       );

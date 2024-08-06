@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Row, Col} from 'antd';
+import { Row, Col } from 'antd';
 import ModalIndex from './Modal';
 import './Info.css'
 
