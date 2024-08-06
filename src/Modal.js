@@ -9,10 +9,10 @@ const Modal = ({ open, onCancel, status }) => {
       return (
         <div className="modal">
           <div className="modal-content">
-            <ModalContent status={status} />
-            <div className='btnArea'>
+            <ModalContent status={status} onCancel={onCancel} />
+            {/* <div className='btnArea'>
                 <button className='closeBtn' onClick={onCancel}>Close</button>
-            </div>
+            </div> */}
           </div>
         </div>
       );

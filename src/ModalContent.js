@@ -4,21 +4,21 @@ import Empty from "./empty";
 import Full from "./full";
 import Erro from "./erro";
 
-const ModalContent = ({ status }) => {
+const ModalContent = ({ status, onCancel }) => {
     switch (status) {
         case 'erro':
-            return <Erro />;
+            return <Erro onCancel={onCancel} />;
         case 'empty':
-            return <Empty />;
+            return <Empty onCancel={onCancel} />;
             
         case 'canUse':
-            return <CanUse />;
+            return <CanUse onCancel={onCancel} />;
             
         case 'full':
-            return <Full />;
+            return <Full onCancel={onCancel} />;
             
         case 'test':
-            return <Test />;
+            return <Test onCancel={onCancel} />;
             
         default:
             return null;
