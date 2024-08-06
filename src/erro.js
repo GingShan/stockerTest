@@ -11,7 +11,7 @@ export default class erro extends Component {
       <div>
         erro
         <div className='btnArea'>
-            <button className='closeBtn' onClick={onCancel}>Close</button>
+            <button className='btnType closeBtn' onClick={onCancel}>Close</button>
         </div>
         </div>
     )

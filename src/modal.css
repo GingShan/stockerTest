@@ -23,7 +23,7 @@
     text-align: right;
 }
 
-.modal-content .btnArea .closeBtn{
+.modal-content .btnArea .btnType{
     border: none;
     outline: none;
     background-color: rgb(21, 103, 211);

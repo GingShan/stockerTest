@@ -11,7 +11,7 @@ export default class empty extends Component {
       <div>
         empty
         <div className='btnArea'>
-            <button className='closeBtn' onClick={onCancel}>Close</button>
+            <button className='btnType closeBtn' onClick={onCancel}>Close</button>
         </div>
         </div>
     )
