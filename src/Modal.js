@@ -1,4 +1,5 @@
 import ModalContent from './ModalContent';
+import './modal.css';
 
 const Modal = ({ open, onCancel, status }) => {
     if (!open) {
@@ -8,8 +9,10 @@ const Modal = ({ open, onCancel, status }) => {
       return (
         <div className="modal">
           <div className="modal-content">
-            <button onClick={onCancel}>Close</button>
             <ModalContent status={status} />
+            <div className='btnArea'>
+                <button className='closeBtn' onClick={onCancel}>Close</button>
+            </div>
           </div>
         </div>
       );

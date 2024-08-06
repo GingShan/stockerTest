@@ -1,0 +1,35 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.modal-content{
+    width: 50%;
+    min-height: 40vh;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1% 3%;
+}
+
+.modal-content .btnArea{
+    width: 100%;
+    text-align: right;
+}
+
+.modal-content .btnArea .closeBtn{
+    border: none;
+    outline: none;
+    background-color: rgb(21, 103, 211);
+    color: #fff;
+    text-align: center;
+    padding: 2% 3%;
+    border-radius: 5px;
+    cursor: pointer;
+}

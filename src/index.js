@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import Info from "./Info";
 import Info2 from "./table";
 import reportWebVitals from './reportWebVitals';
 
