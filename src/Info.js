@@ -44,8 +44,7 @@ let stockers = [
         {
             number: "編號1",
             status: "empty",
-            background: "",
-            Url:''
+            background: ""
         },
         {
             number: "編號2",
