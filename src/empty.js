@@ -23,7 +23,7 @@ export default class empty extends Component {
           width: 160
         },
         {
-          title: "number",
+          title: "機台編號",
           dataIndex: "number",
           width: 120
         },

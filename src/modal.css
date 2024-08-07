@@ -2,19 +2,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.5);
+    z-index: 100;
 }
 
 .modal-content{
     width: 50%;
     background-color: #fff;
     border-radius: 5px;
-    padding: 3%;
+    padding: 2%;
     overflow: hidden;
 }
 
@@ -54,7 +55,13 @@
     width: 100%;
 }
 
+.ant-table-wrapper .ant-table-thead >tr>th{
+    background-color: #cfcfcf;
+}
 
+.ant-table-wrapper .ant-table-tbody >tr >td{
+    border-bottom: 1px solid #cfcfcf;
+}
 
 @media screen and (max-width:768px){
     .modal-content{
